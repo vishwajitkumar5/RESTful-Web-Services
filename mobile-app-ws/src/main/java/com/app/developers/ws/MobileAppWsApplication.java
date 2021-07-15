@@ -21,7 +21,7 @@ public class MobileAppWsApplication extends SpringBootServletInitializer {
 		SpringApplication.run(MobileAppWsApplication.class, args);
 	}
 
-	@Bean
+@Bean
 	public BCryptPasswordEncoder bCryptPasswordEncoder() {
 		return new BCryptPasswordEncoder();
 	}
